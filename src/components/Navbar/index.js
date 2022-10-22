@@ -12,8 +12,8 @@ const Navbar = () => {
             <div>
             <img src={logo} className="App-logo" alt="logo" />
             </div>
-            <div>
-            <input type="text" placeholder="Search"/>
+            <div >
+            <input className="serchBar" type="text" placeholder="Search"/>
             </div>
          <div>
             <img src={Cart} className="p-4"/>
